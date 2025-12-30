@@ -58,7 +58,7 @@ function App() {
           <button className="secondary">⭐ Favorites</button>
         </div>
 
-        <footer>Built with ❤️ using React</footer>
+        <footer>Built by Avantika...</footer>
       </div>
     </div>
   );
