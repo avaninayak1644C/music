@@ -2,81 +2,63 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
 }
 
-body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  height: 100vh;
-}
-
-/* CENTER EVERYTHING */
 .app {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-/* CARD */
 .card {
-  text-align: center;
+  background: rgba(0, 0, 0, 0.55);
   padding: 40px 50px;
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
   border-radius: 20px;
+  text-align: center;
   color: white;
-  width: 360px;
-}
-
-/* TEXT */
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 10;
 }
 
 .subtitle {
-  opacity: 0.8;
-  margin-bottom: 8px;
+  margin: 10px 0;
+  opacity: 0.9;
 }
 
-/* LISTEN BUTTON */
 .listen-btn {
   margin-top: 20px;
-  background: #ff0055;
-  border: none;
-  padding: 14px 30px;
-  border-radius: 30px;
+  padding: 15px 40px;
   font-size: 18px;
-  color: white;
+  border-radius: 30px;
+  border: none;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  background: linear-gradient(135deg, #ff0080, #ff8c00);
+  color: white;
+  transition: transform 0.2s ease;
 }
 
 .listen-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #ff0055;
 }
 
-/* EXTRA BUTTONS */
 .extra-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
   margin-top: 20px;
 }
 
 .secondary {
-  background: white;
-  border: none;
-  padding: 8px 16px;
+  margin: 5px;
+  padding: 8px 15px;
   border-radius: 20px;
+  border: none;
   cursor: pointer;
 }
 
-/* FOOTER */
 footer {
   margin-top: 25px;
-  font-size: 12px;
-  opacity: 0.7;
+  font-size: 14px;
+  opacity: 0.8;
 }
