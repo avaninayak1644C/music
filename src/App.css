@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+}
+
+/* CENTER EVERYTHING */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CARD */
+.card {
+  text-align: center;
+  padding: 40px 50px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  color: white;
+  width: 360px;
+}
+
+/* TEXT */
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+/* LISTEN BUTTON */
+.listen-btn {
+  margin-top: 20px;
+  background: #ff0055;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.listen-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff0055;
+}
+
+/* EXTRA BUTTONS */
+.extra-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.secondary {
+  background: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 25px;
+  font-size: 12px;
+  opacity: 0.7;
+}
